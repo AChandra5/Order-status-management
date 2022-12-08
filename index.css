@@ -1,0 +1,52 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 10px; */
+    /* height: 500px; */
+    margin:auto;
+    text-align: center;
+    /* border:5px solid; */
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+body{
+    /* height:90vh; */
+    display: flex;
+}
+.orderId{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+#order-update{
+    margin:5px;
+    color: white;
+    background:black;
+}
+#execute-btn{
+    width:100px;
+    border-radius:20px;
+    background: yellow;
+    background-color: black;
+}
+.button{
+    padding:5px;
+    margin: 0px;
+}
+.order-status-block{
+    width:100%;
+    margin: 10px 0;
+}
+.order-status-wrapper{
+    width: 600px;
+}
